@@ -146,12 +146,12 @@
 				TargetAttributes = {
 					A8D496451EB0E54100C921DA = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = TUAV2B4TCL;
+						DevelopmentTeam = 8S9K4JE4NH;
 						ProvisioningStyle = Automatic;
 					};
 					A8D496591EB0E54100C921DA = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = LPY344PDQU;
+						DevelopmentTeam = 8S9K4JE4NH;
 						ProvisioningStyle = Automatic;
 						TestTargetID = A8D496451EB0E54100C921DA;
 					};
@@ -343,11 +343,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TUAV2B4TCL;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8S9K4JE4NH;
 				INFOPLIST_FILE = Golfr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.GHax.Golfr;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ghax;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -356,11 +358,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TUAV2B4TCL;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8S9K4JE4NH;
 				INFOPLIST_FILE = Golfr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.GHax.Golfr;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ghax;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -370,7 +374,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = LPY344PDQU;
+				DEVELOPMENT_TEAM = 8S9K4JE4NH;
 				INFOPLIST_FILE = GolfrTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.G-Hax.GolfrTests";
@@ -385,7 +389,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = LPY344PDQU;
+				DEVELOPMENT_TEAM = 8S9K4JE4NH;
 				INFOPLIST_FILE = GolfrTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.G-Hax.GolfrTests";
@@ -414,6 +418,7 @@
 				A8D496651EB0E54100C921DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8D496661EB0E54100C921DA /* Build configuration list for PBXNativeTarget "GolfrTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +427,7 @@
 				A8D496681EB0E54100C921DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
